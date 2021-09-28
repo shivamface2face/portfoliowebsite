@@ -1,0 +1,243 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: sans-serif;
+}
+#nav_bar{
+	position: sticky;
+	top: 0;
+	z-index: 10;
+
+}
+.navbar{
+	background-image: linear-gradient(to right, #a517ba,#5f1782);
+	padding: 0 !important;
+}
+.navbar-brand img{
+
+	height: 40px;
+	padding-left:20px; 
+
+}
+.navbar-nav li{
+	padding: 0 10px;
+}
+.navbar-nav li a{
+	color: #fff !important;
+	font-weight: 600px;
+}
+
+
+/* ----------------------banner secton --
+
+font-size: 140px;
+	font-weight: 600px;
+	margin-top: 80px;
+	animation: text;
+
+
+--------------*/
+
+
+#banner{
+	background-image: linear-gradient(to right, #a517ba,#5f1782);
+	color:#fff;
+	padding-top: 5%;
+
+}
+.promo_title{
+	              font-size:50px;
+                   font-weight: 400px;
+                     margin-top: 80px; 
+                     letter-spacing:3px;
+                     color:black;
+                     animation: text 2s 3;
+                     
+	
+
+}
+
+@keyframes text{
+	0%{
+		margin-left:20px;
+	}
+	50%{
+		margin-left:20px;
+	}
+
+
+}
+
+.bottom-img{
+	width: 100%;
+	margin-top: 5px;
+	height: 5rem;
+}
+
+
+
+
+
+
+
+/* ----------------------about secton ----------------*/
+
+#about{
+	padding-top: 80px;
+	background: #f8f9fa;
+}
+.title::before{
+	content: '';
+	background: #7b1798;
+	height: 5px;
+	width: 200px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	transform: translateY(56px);
+}
+.title::after{
+	content: '';
+	background: #7b1798;
+	height: 8px;
+	width: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 30px;
+	display: block;
+	transform: translateY(5px);
+}
+
+
+
+/* ----------------------skill secton ----------------*/
+
+
+#skill{
+	padding-top: 80px;
+	background: #f8f9fa;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ----------------------social  secton ----------------*/
+
+#social{
+	background: #f8f9fa;
+	padding: 100px 0;
+
+
+}
+
+.social-icon img{
+	width: 120px;
+	padding: 20px;
+	transition: 0.5s;
+
+
+}
+.social-icon a:hover img{
+	transform: translateY(-10px);
+}
+
+
+
+
+
+
+/* ----------------------footer  secton ----------------*/
+
+
+#footer{
+
+	background-image: linear-gradient(to right, #a517ba,#5f1782);
+	color: #fff;
+
+}
+#footer .fas{
+	margin: 8px;
+	font-size: 15px;
+	height: 30px;
+	text-align: center;
+	padding-top: 7px;
+	border-radius: 1px;
+	background-image: linear-gradient(to right, #a517ba,#5f1782);
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* --------------------------- media ----------*/
+/
+
+@media (min-width: 576px) {
+
+	  .promo_title{
+	              font-size:30px;
+                   font-weight: 200px;
+                     margin-top: 80px; 
+                     letter-spacing:3px;
+
+                 }
+
+      .card-img{
+      	size: 50px;
+      }           
+                     
+                     
+}
+
+@media (min-width: 768px) { 
+
+
+
+}
+
+
+@media (min-width: 992px) { 
+
+
+
+ }
+
+
+
+
+@media (min-width: 1200px) { 
+}
